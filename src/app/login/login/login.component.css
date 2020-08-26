@@ -1,0 +1,35 @@
+.login-form {
+  height: auto;
+  width: 35vw;
+  margin: 10vh auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 2em;
+}
+
+.login-btn {
+  margin: auto;
+  padding: 2px 20px;
+  margin-bottom: 1em;
+}
+
+.error-message {
+  text-align: left;
+  color: red;
+}
+
+.error-hide {
+  display: none;
+}

@@ -1,0 +1,9 @@
+<form #searchForm='ngForm' (ngSubmit)='searchMovie(searchForm.value)'>
+  <div class="search-text-icon-container">
+    <mat-form-field class="search-input">
+      <input id="search-input-field" matInput placeholder="Search" [(ngModel)]='movieName' name="search">
+    </mat-form-field>
+    <mat-icon style="cursor: pointer;" (click)='searchMovie(searchForm.value)' aria-hidden="false"
+      aria-label="Example home icon">search</mat-icon>
+  </div>
+</form>

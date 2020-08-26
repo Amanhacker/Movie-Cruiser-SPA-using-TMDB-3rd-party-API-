@@ -1,0 +1,29 @@
+<form #loginform='ngForm' class="login-form" (ngSubmit)='addNewLogin(loginform.value)'>
+  <h2>Login Component</h2>
+
+  <div class="login-container">
+    <mat-form-field>
+      <input matInput #username='ngModel' required [(ngModel)]='user.username' type="text" placeholder="Username"
+        name="username">
+    </mat-form-field>
+    <small class="error-message" [class.error-hide]='username.untouched || username.valid'>Username is
+      mandatory</small>
+    <!-- Touched : {{username.touched}} | Dirty : {{username.dirty}} | Valid : {{username.valid}} -->
+
+    <mat-form-field>
+      <input matInput #password='ngModel' required pattern="\w{8,}" [(ngModel)]='user.password' type='password'
+        placeholder="Password" name="password">
+    </mat-form-field>
+
+    <div class="error-message" *ngIf='password.errors && password.touched'>
+      <small *ngIf='password.errors.required'>Password is mandatory</small>
+      <small *ngIf='password.errors.pattern'>Password should be atleast 8 characters</small>
+    </div>
+
+    <button class='login-btn' [disabled]='loginform.invalid' type="submit" mat-raised-button
+      color="primary">Login</button>
+
+  </div>
+</form>
+
+<!-- NgFormValue : {{loginform.value | json}} -->

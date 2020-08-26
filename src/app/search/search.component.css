@@ -1,0 +1,14 @@
+form {
+  color: white;
+}
+
+.search-input {
+  font-size: small;
+  width: 15vw;
+  margin-right: 1em;
+}
+
+.search-text-icon-container {
+  display: flex;
+  align-items: center;
+}

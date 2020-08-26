@@ -1,0 +1,17 @@
+<main>
+  <h2>Favourite Movies</h2>
+
+  <div *ngIf='movies.length === 0' style="display: flex; height: 70vh;">
+    <h2 style="margin: auto; font-weight: normal;">No favourites</h2>
+  </div>
+
+  <div *ngFor='let movie of movies' style="border: 1px solid black;">
+    <h3>Title : {{movie.title}}</h3>
+    <img src="https://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="">
+    <p>Overview : {{movie.overview}}</p>
+    <p>Vote : {{movie.vote_average}}</p>
+    <p>Genre : {{getGenreFromIds(movie.genre_ids)}}</p>
+    <p>Release Date : {{movie.release_date}}</p>
+    <button (click)='removeFavourite(movie.id)'>Remove from favourites</button>
+  </div>
+</main>
