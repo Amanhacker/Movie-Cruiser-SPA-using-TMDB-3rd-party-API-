@@ -1,3 +1,10 @@
+For running the above Angular Project : 
+
+- Open the project in Visual Studio code and open terminal
+- Run "npm install" command to install all the dependencies
+- Run "ng serve -o" 
+- You are good to go and view the project in the local host 4200.
+
 # CaseStudy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
