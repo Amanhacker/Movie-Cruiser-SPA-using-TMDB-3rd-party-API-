@@ -1,9 +1,14 @@
-- Project Overview
+## Project Overview
 
 This project contains the website developed using Angular which has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
 I have used the TMDB API for fetching the data of movies (https://developers.themoviedb.org/3/getting-started/introduction) and once the user gets authenticated, he/she is able to add or remove movie in their favorite list. Also, a user can search any movie based on some keyword.
 
-For running the above Angular Project : 
+## Technologies used :
+
+### FrontEnd : 
+HTML5, CSS3, Angular, Angular Material, TMDB API
+
+## Steps to run the above Angular Project : 
 
 - Open the project in Visual Studio code and open terminal
 - Run "npm install" command to install all the dependencies
