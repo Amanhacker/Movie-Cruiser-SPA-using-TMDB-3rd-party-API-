@@ -1,3 +1,5 @@
+# Movie Cruiser Application
+
 ## Project Overview
 
 This project contains the website developed using Angular which has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
