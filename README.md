@@ -6,6 +6,10 @@ This project contains the website developed using Angular which has different mo
 
 I have used the TMDB API for fetching the data of movies (https://developers.themoviedb.org/3/getting-started/introduction) and once the user gets authenticated, he/she is able to add or remove movie in their favorite list. Also, a user can search any movie based on some keyword.
 
+## Pro-Tip :
+Go to https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API- for browsing through the code in the browser itself.
+
+
 ## Technologies used :
 
 ### FrontEnd : 
