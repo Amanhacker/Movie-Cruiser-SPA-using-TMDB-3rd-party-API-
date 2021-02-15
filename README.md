@@ -9,6 +9,7 @@ I have used the TMDB API for fetching the data of movies (https://developers.the
 ## Pro-Tip :
 Go to https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API- for browsing through the code in the browser itself.
 
+Go to https://drive.google.com/drive/folders/1uew12KDwiRrIEJE3D__IVnIbKWVC3Xwl?usp=sharing for seeing the glimpse(some snapshots of each module) of our Movie Cruiser Application.
 
 ## Technologies used :
 
