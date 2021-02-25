@@ -5,6 +5,8 @@
 I was searching of a platform where we can search any movie, and can add my fav movies to my favorite list for registered and authenticated users.
 However, I know the website IMDB, but I want to create my own version of IMDB.
 
+Created a Single Page Application using Angular for fetching movies from TMDB API for authenticated user.
+
 I have created my own version of IMDB - "Movie Cruiser Application" website developed using Angular whose primary goal is to fetch data of trending movies from TMDB API ((https://developers.themoviedb.org/3/getting-started/introduction). Once the user gets authenticated, a user can add or remove movie in their favorite list, and can search any movie based on some keyword.
 
 It has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
