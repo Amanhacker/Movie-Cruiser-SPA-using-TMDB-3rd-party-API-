@@ -2,9 +2,16 @@
 
 ## Project Overview
 
-This project contains the website developed using Angular which has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
+I was searching of a platform where we can search any movie, and can add my fav movies to my favorite list for registered and authenticated users.
+However, I know the website IMDB, but I want to create my own version of IMDB.
 
-I have used the TMDB API for fetching the data of movies (https://developers.themoviedb.org/3/getting-started/introduction) and once the user gets authenticated, he/she is able to add or remove movie in their favorite list. Also, a user can search any movie based on some keyword.
+I have created my own version of IMDB - "Movie Cruiser Application" website developed using Angular whose primary goal is to fetch data of trending movies from TMDB API ((https://developers.themoviedb.org/3/getting-started/introduction). Once the user gets authenticated, a user can add or remove movie in their favorite list, and can search any movie based on some keyword.
+
+It has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
+
+I am only fetching and displaying these datas of trending Movies like "Movie Overview", "No of votes this movie gets in terms of ratings", "Genre" and "Release Date". These datas are shown for every movie, which is being fetched from TMDB API.
+
+Also, I have used SnackBarService(used to show messages in the bottom of the application with swiping enabled) to refrain from accessing the favorite module once a user gets logged out.
 
 ## Pro-Tip :
 Go to https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API- for browsing through the code in the browser itself.
