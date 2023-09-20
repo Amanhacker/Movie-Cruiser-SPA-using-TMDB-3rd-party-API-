@@ -15,21 +15,55 @@ I am only fetching and displaying these datas of trending Movies like "Movie Ove
 
 Also, I have used SnackBarService(used to show messages in the bottom of the application with swiping enabled) to refrain from accessing the favorite module once a user gets logged out.
 
+# Introduction
+
+MovieCruiser is a simple application that lets you browse the trending movies, search for movies and adds them as favourite to your dashboard.
+
+# Getting Started
+
+1. Clone the repo into the local system. (Do not fork it)
+2. Install dependencies `npm install`.
+3. Start the server `json-server --watch server/fav.json`.
+4. Start the app `ng serve -o`.
+
+# Trending
+
+Shows the top ten trending movies of the week. You can add them to your favourite if logged in.
+
+# Searching
+
+You can search the movies from the search bar and top ten results will be displayed on the page which can be added to favourite if user is logged in.
+
+# Favourites
+
+You can visit this page only if logged in and remove the movies from favourite if authenticated.
+
+# Logout
+
+User is logged out from the session. Adding and removing can't be done if user is logged out.
+
+# Login details
+
+1. Username: `admin` Password: `12345678`
+2. Username: `user1` Password: `12345678`
+
 ## Pro-Tip :
+
 Go to https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API- for browsing through the code in the browser itself.
 
 Go to https://drive.google.com/drive/folders/1uew12KDwiRrIEJE3D__IVnIbKWVC3Xwl?usp=sharing for seeing the glimpse(some snapshots of each module) of our Movie Cruiser Application.
 
 ## Technologies used :
 
-### FrontEnd : 
+### FrontEnd :
+
 HTML5, CSS3, Angular, Angular Material, TMDB API
 
-## Steps to run the above Angular Project : 
+## Steps to run the above Angular Project :
 
 - Open the project in Visual Studio code and open terminal
 - Run "npm install" command to install all the dependencies
-- Run "ng serve -o" 
+- Run "ng serve -o"
 - You are good to go and view the project in the local host 4200.
 
 # CaseStudy
