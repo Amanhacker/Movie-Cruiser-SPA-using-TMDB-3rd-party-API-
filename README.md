@@ -15,7 +15,9 @@ I am only fetching and displaying these datas of trending Movies like "Movie Ove
 
 Also, I have used SnackBarService(used to show messages in the bottom of the application with swiping enabled) to refrain from accessing the favorite module once a user gets logged out.
 
-# Deployed Website : https://amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-/
+# Deployed Website : 
+
+https://amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-/
 
 # Introduction
 
