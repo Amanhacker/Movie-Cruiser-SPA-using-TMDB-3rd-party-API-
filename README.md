@@ -63,63 +63,70 @@ This application provides a seamless and intuitive experience for movie enthusia
 
 Check out the [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction) for more details on the data source.
 
-# Deployed Website : 
+## Deployed Website
 
-https://amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-/
+[Movie Cruiser Application](https://amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-/)
 
-# Introduction
+## Introduction
 
-MovieCruiser is a simple application that lets you browse the trending movies, search for movies and adds them as favourite to your dashboard.
+MovieCruiser is a simple application that lets you browse trending movies, search for movies, and add them as favorites to your dashboard.
 
-# Getting Started
+## Getting Started
 
 1. Clone the repo into the local system. (Do not fork it)
-2. Install dependencies `npm install`.
-3. Start the server `json-server --watch server/fav.json`.
-4. Start the app `ng serve -o`.
-
-# Trending
-
-Shows the top ten trending movies of the week. You can add them to your favourite if logged in.
-
-# Searching
-
-You can search the movies from the search bar and top ten results will be displayed on the page which can be added to favourite if user is logged in.
-
-# Favourites
-
-You can visit this page only if logged in and remove the movies from favourite if authenticated.
-
-# Logout
-
-User is logged out from the session. Adding and removing can't be done if user is logged out.
-
-# Login details
-
-1. Username: `admin` Password: `12345678`
-2. Username: `user1` Password: `12345678`
-
-## Pro-Tip :
-
-Go to https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API- for browsing through the code in the browser itself.
-
-Go to https://drive.google.com/drive/folders/1uew12KDwiRrIEJE3D__IVnIbKWVC3Xwl?usp=sharing for seeing the glimpse(some snapshots of each module) of our Movie Cruiser Application.
-
-## Technologies used :
-
-### FrontEnd :
-
-HTML5, CSS3, Angular, Angular Material, TMDB API
-
-## Steps to run the above Angular Project :
-
-- Open the project in Visual Studio code and open terminal
-- Run "npm install" command to install all the dependencies
-- Run "ng serve -o"
-- You are good to go and view the project in the local host 4200.
+2. Install dependencies using `npm install`.
+3. Start the server using `json-server --watch server/fav.json`.
+4. Start the app using `ng serve -o`.
 
 
-# Movie Cruiser Application 
+## Modules
+
+### Trending
+
+Shows the top ten trending movies of the week. You can add them to your favorites if logged in.
+
+### Searching
+
+You can search for movies from the search bar, and the top ten results will be displayed on the page. These can be added to favorites if the user is logged in.
+
+### Favorites
+
+Accessible only if logged in, where users can remove movies from favorites if authenticated.
+
+### Logout
+
+Logs the user out of the session, preventing further adding or removing of movies until re-authenticated.
+
+## Login Details
+
+1. Username: `admin`, Password: `12345678`
+2. Username: `user1`, Password: `12345678`
+
+## Pro-Tip
+
+Browse the code directly in your browser at [GitHub1s](https://github1s.com/AMANHACKER/MOVIE-CRUISER-SPA-USING-TMDB-3RD-PARTY-API-).
+
+View snapshots of the application at [Google Drive](https://drive.google.com/drive/folders/1uew12KDwiRrIEJE3D__IVnIbKWVC3Xwl?usp=sharing).
+
+
+## Technologies Used
+
+### Frontend
+
+- HTML5
+- CSS3
+- Angular
+- Angular Material
+- TMDB API
+
+## Steps to Run the Angular Project
+
+1. Open the project in Visual Studio Code and open the terminal.
+2. Run `npm install` to install all dependencies.
+3. Run `ng serve -o` to start the application.
+4. The project will be viewable at localhost:4200.
+
+## Movie Cruiser Application 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
@@ -138,4 +145,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
     - git commit -m "Initial Deployment to Github pages"
     - git push -u origin master:gh-pages
 
-    - Once the code is pushed, it will automatically deploy your application to this url "https://Amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-"
+
+  Once the code is pushed, it will automatically deploy your application to this url : [Movie Cruiser Application](https://Amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-). 
