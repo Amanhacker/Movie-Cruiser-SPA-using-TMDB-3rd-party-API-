@@ -1,19 +1,67 @@
 # Movie Cruiser Application
 
-## Project Overview
+#### Project Description
 
-I was searching of a platform where we can search any movie, and can add my fav movies to my favorite list for registered and authenticated users.
-However, I know the website IMDB, but I want to create my own version of IMDB.
+I was searching of a platform where users can search for any movie, and add their favorite movies to a favorite list, exclusively for registered and authenticated users.
 
-Created a Single Page Application using Angular for fetching movies from TMDB API for authenticated user.
+Although IMDB exists, I aimed to create my own version with unique features and a personalized touch.
 
-I have created my own version of IMDB - "Movie Cruiser Application" website developed using Angular whose primary goal is to fetch data of trending movies from TMDB API ((https://developers.themoviedb.org/3/getting-started/introduction). Once the user gets authenticated, a user can add or remove movie in their favorite list, and can search any movie based on some keyword.
+**Movie Cruiser Application** is a Single Page Application (SPA) developed using Angular. It fetches movie data from the TMDB API, allowing authenticated users to:
 
-It has different modules like Login, Trending movies, Search module, Logout, Add to Favorites, etc.
+- Search for any movie based on keywords.
+- View trending movies.
+- Add or remove movies from their favorites list.
 
-I am only fetching and displaying these datas of trending Movies like "Movie Overview", "No of votes this movie gets in terms of ratings", "Genre" and "Release Date". These datas are shown for every movie, which is being fetched from TMDB API.
+This application provides a seamless and intuitive experience for movie enthusiasts to search, explore, and manage their favorite movies.
 
-Also, I have used SnackBarService(used to show messages in the bottom of the application with swiping enabled) to refrain from accessing the favorite module once a user gets logged out.
+#### Key Features
+
+1. **User Authentication**:
+   - Secure login and logout functionality.
+   - User authentication ensures that only registered users can access personalized features.
+
+2. **Search Functionality**:
+   - Users can search for movies based on keywords.
+   - Provides a list of movies matching the search criteria.
+
+3. **Trending Movies**:
+   - Displays a list of currently trending movies fetched from the TMDB API.
+   - Users can explore popular and trending titles.
+
+4. **Favorite Movies**:
+   - Authenticated users can add movies to their favorites list.
+   - Users can remove movies from their favorites list as well.
+
+5. **Movie Details**:
+   - For each movie, the application displays detailed information including:
+     - **Movie Overview**: A brief synopsis of the movie.
+     - **Ratings**: The number of votes and average rating.
+     - **Genre**: The genre(s) of the movie.
+     - **Release Date**: The release date of the movie.
+
+6. **Modular Structure**:
+   - **Login Module**: Handles user authentication.
+   - **Trending Movies Module**: Displays a list of trending movies.
+   - **Search Module**: Allows users to search for movies.
+   - **Favorites Module**: Manages the user's favorite movies list.
+   - **Logout Module**: Handles user logout.
+
+7. **SnackBarService**:
+   - Provides feedback messages to the user at the bottom of the application.
+   - Ensures that users are informed about actions like adding/removing favorites or logging out.
+   - Prevents access to the favorites module once the user logs out.
+
+#### Technical Details
+
+- **Frontend**: Developed using Angular, a powerful framework for building dynamic SPAs.
+- **API Integration**: Utilizes the TMDB API for fetching movie data. More details on the API can be found [here](https://developers.themoviedb.org/3/getting-started/introduction).
+
+#### Conclusion
+
+**Movie Cruiser Application** is my take on creating a personalized movie browsing and management platform. By leveraging Angular and the TMDB API, I've developed a robust and user-friendly application that caters to movie enthusiasts looking for a tailored experience. Explore, search, and manage your favorite movies with ease!
+
+
+Check out the [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction) for more details on the data source.
 
 # Deployed Website : 
 
