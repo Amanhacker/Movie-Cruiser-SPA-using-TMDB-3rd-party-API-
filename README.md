@@ -1,6 +1,6 @@
 # Movie Cruiser Application
 
-#### Project Description
+### Project Description
 
 I was searching of a platform where users can search for any movie, and add their favorite movies to a favorite list, exclusively for registered and authenticated users.
 
@@ -14,7 +14,7 @@ Although IMDB exists, I aimed to create my own version with unique features and 
 
 This application provides a seamless and intuitive experience for movie enthusiasts to search, explore, and manage their favorite movies.
 
-#### Key Features
+### Key Features
 
 1. **User Authentication**:
    - Secure login and logout functionality.
@@ -51,12 +51,12 @@ This application provides a seamless and intuitive experience for movie enthusia
    - Ensures that users are informed about actions like adding/removing favorites or logging out.
    - Prevents access to the favorites module once the user logs out.
 
-#### Technical Details
+### Technical Details
 
 - **Frontend**: Developed using Angular, a powerful framework for building dynamic SPAs.
 - **API Integration**: Utilizes the TMDB API for fetching movie data. More details on the API can be found [here](https://developers.themoviedb.org/3/getting-started/introduction).
 
-#### Conclusion
+### Conclusion
 
 **Movie Cruiser Application** is my take on creating a personalized movie browsing and management platform. By leveraging Angular and the TMDB API, I've developed a robust and user-friendly application that caters to movie enthusiasts looking for a tailored experience. Explore, search, and manage your favorite movies with ease!
 
@@ -134,7 +134,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Deployment Steps :
+## Deployment Steps :
 
     - Run this command "ng build --prod --base-href "https://Amanhacker.github.io/Movie-Cruiser-SPA-using-TMDB-3rd-party-API-"
     - It will generate the built files under this path "dist/app"
